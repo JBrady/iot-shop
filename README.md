@@ -10,6 +10,6 @@ Building an ecommerce store from scratch using MERN stack
 - Product pagination
 - Product search feature
 - User profile
-- Admin area
+- Admin area for products and users
 - Checkout process using Paypal or Stripe
 - Database seeder for products and users

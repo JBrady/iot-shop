@@ -4,6 +4,8 @@ import {
   PRODUCT_LIST_FAIL,
 } from '../constants/productConstants.js'
 
+//  Setting up the productListReducer which handles the listing of products
+//  in our state
 export const productListReducer = (state = { products: [] }, action) => {
   switch (action.type) {
     case PRODUCT_LIST_REQUEST:

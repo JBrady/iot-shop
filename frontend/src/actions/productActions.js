@@ -5,7 +5,8 @@ import {
   PRODUCT_LIST_FAIL,
 } from '../constants/productConstants.js'
 
-// Creating the listProducts action
+// Creating the listProducts action.
+// This will be fired-off in the HomeScreen
 export const listProducts = () => async (dispatch) => {
   try {
     dispatch({ type: PRODUCT_LIST_REQUEST })
